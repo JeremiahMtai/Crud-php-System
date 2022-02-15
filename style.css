@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace, 'popins';
+}
+body{
+    background-color: bisque;
+    width: 100%;
+    min-height: 100vh;
+    /*background-image: url(img/joy5.jpg), linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5),rgba(0,0,0,.5),rgba(0,0,0,.5));*/
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 400px;
+    height: 100%;
+    min-height: 80vh;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(36, 33, 33, 0.9);
+    padding: 0;
+    display: flex;
+}
+.container .login-text{
+    color: rgb(202, 21, 112);
+    font-weight: 500;
+    font-size: 1.5rem;
+    align-items: center;
+    margin-bottom: 5px;
+    display: block;
+    text-transform: capitalize;
+    justify-content: center;
+    
+}
+.social-icon{
+    display: grid;
+
+}
+.container .login-email .input-group{
+    width: 100%;
+    height: 50px;
+    margin: 5px;
+}
+.container .login-email .input-group input{
+    width: 100%;
+    height: 100%;
+    border: rgb(240, 236, 236) solid 2px;
+    padding: 15px 10px;
+    font-size: 1rem;
+    background: transparent;
+    border-radius: 20px;
+}
+.container .login-email .input-group input:focus, .container .login-email .input-group input:valid{
+    border: black solid 2px;
+}
+.container .login-email .input-group .btn{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(236, 42, 139);
+    text-decoration: none;
+    border-radius: 20px;
+    
+}
+.container .login-email .input-group .btn:hover{
+    color: blue;
+    background-color: burlywood;
+    text-transform: uppercase;
+    transition: all ease 0.2s;
+}
+
+
+
+
