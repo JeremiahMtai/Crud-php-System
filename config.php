@@ -1,13 +1,12 @@
 <?php
-$_server = "localhost";
-$user = "root";
-$password = "";
-$database = "dimitedb";
+$server = 'localhost';
+$user = 'root';
+$password = '';
+$database = 'monclass';
 
-$conn = mysqli_connect($_server, $user, $password, $database);
+$conn = mysqli_connect($server, $user, $password, $database );
 
 if(!$conn){
-    die("<script>alert('connection Failed')</script>");
-
+    die("<script>alert('Connection failed')</script>");
 }
 ?>
